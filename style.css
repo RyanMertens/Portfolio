@@ -58,9 +58,13 @@
 }
 
 
+.socials .container{
+  position: relative;
+
+}
 
 .socials{
-  position: absolute;
+  /* position: absolute; */
   top: 85%;
   left: 50%;
 }
@@ -83,4 +87,14 @@
 .instagram{
   margin-left: -4.5px;
   margin-top: -10px;
+  color: black;
+}
+
+.linkedin{
+  color: black;
+}
+
+.socials{
+  margin: auto;
+  max-width: 100vw;
 }
