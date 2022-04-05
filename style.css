@@ -99,6 +99,10 @@ body {
 .container .social-icon.linkedin .icon:after {
   background: #0a66c2;
 }
+.container .social-icon.phone .icon:after {
+  background: #ff00bf;
+}
+
 
 /* Dit is wat code die overbodig is */
 
@@ -139,6 +143,12 @@ body {
 
 .linkedin {
   color: black;
+}
+
+.phone {
+  color: black;
+  margin-left: -5px;
+  margin-top: -10px;
 }
 
 /* Wat ik aan code voor je toegevoegd heb staat hieronder (zie ook comment op lijn 61) */
