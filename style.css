@@ -4,7 +4,7 @@ body {
  }
  
  .aboutMe {
-   color: black;
+   color: black;  
  }
  .home{
    display: flex;
@@ -156,13 +156,15 @@ body {
 .socials .container {
   display: flex;
   justify-content: center;
-  bottom: 0;
+  bottom: 10;
 }
 
 .container.about-me {
   margin-top: 15vh;
   margin-bottom: 15vh;
 }
+
+
 
 /* body,
 html {
