@@ -1,15 +1,15 @@
 body {
-  background-image: url(https://picsum.photos/1920/1080? ); 
+  background-image: url(https://picsum.photos/1920/1080?blur=3 ); 
   
  }
  
  .aboutMe {
-   color: #f2f2f2;
+   color: black;
  }
  .home{
    display: flex;
    height: 300px;
-   color: #f2f2f2;
+   color: black;
    font-family: 'Unbuntu', sans-serif;
  }
  
