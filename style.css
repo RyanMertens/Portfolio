@@ -1,8 +1,27 @@
 body {
-  /* background-image: url(https://picsum.photos/1920/1080?blur=3 );  */
-  background-image: url(img/backgroundGrayscale.webp);
+  background-image: url(img/background-image.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
   color: white;
- }
+}
+
+.dutchButton {
+  border-style: dashed;
+  border-radius: 25px;
+  color: white;
+}
+
+.engButton {
+  border-style: dashed;
+  border-radius: 25px;
+  color: white;
+}
+
+/* background-image: url(https://picsum.photos/1920/1080?blur=3 );  */
+/* background-image: url(img/backgroundGrayscale.webp); */
+/* color: white;
+
+
  
  .text-1{
    color: white;
@@ -23,33 +42,33 @@ body {
  .aboutMe {
    color: white;  
 
- }
- .home{
-   display: flex;
-   height: 300px;
-   color: black;
-   font-family: 'Unbuntu', sans-serif;
- }
- 
- .home .max-width{
-   margin: auto 0 auto 40px;
- }
- 
- .home .home-content .text-1{
-   font-size: 27px;
- }
- 
- .home .home-content .text-2{
-   font-size: 75px;
-   font-weight: 600;
-   margin-left: -3px;
- 
- }
- 
- .home .home-content .text-3{
-   font-size: 40px;
-   margin: 5px 0;
- }
+ } */
+.home {
+  display: flex;
+  height: 300px;
+  color: white;
+  font-family: 'Unbuntu', sans-serif;
+}
+
+.home .max-width {
+  margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1 {
+  font-size: 27px;
+}
+
+.home .home-content .text-2 {
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -3px;
+
+}
+
+.home .home-content .text-3 {
+  font-size: 40px;
+  margin: 5px 0;
+}
 
 /* .container {
   position:absolute;
@@ -117,6 +136,7 @@ body {
 .container .social-icon.linkedin .icon:after {
   background: #0a66c2;
 }
+
 /* .container .social-icon.phone .icon:after {
   background: #ff00bf;
 } */
